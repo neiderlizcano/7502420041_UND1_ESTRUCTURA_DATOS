@@ -22,7 +22,7 @@ public class EjemplosArreglos {
         System.out.println("");
         System.out.println("FOR");
 
-        //Hacemos el reocrrido con el for
+        //Hacemos el recorrido con el for
         for (int i = 0; i < numeros.length; i++) {
             System.out.println("Posición " + i + ": " + numeros[i]);
         }
@@ -67,13 +67,13 @@ public class EjemplosArreglos {
         }
 
         if (posicionEncontrada != -1) {
-            System.out.println("El valor " + valorBuscado + " fue encontrado en la posición " + posicionEncontrada);
+            System.out.println("El valor " + valorBuscado
+                    + " fue encontrado en la posición " + posicionEncontrada);
         } else {
-            System.out.println("El valor " + valorBuscado + " no se encontró en el arreglo.");
+            System.out.println("El valor " + valorBuscado
+                    + " no se encontró en el arreglo.");
         }
 
         scanner.close();
     }
 }
-
-
