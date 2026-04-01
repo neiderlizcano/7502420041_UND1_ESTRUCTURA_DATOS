@@ -1,6 +1,6 @@
 package protocoloindividual;
 
-public class ConceptosBasicos {
+public class ConceptosBasicosArreglos {
 
     public static void main(String[] args) {
 
